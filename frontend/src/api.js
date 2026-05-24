@@ -1,4 +1,4 @@
-const API_URL = "http://127.0.0.1:5000/api";
+const API_URL = "https://karjeros-krypties-rekomendavimo-sistema.onrender.com/api";
 
 export async function fetchQuestions() {
   const res = await fetch(`${API_URL}/questions`);
